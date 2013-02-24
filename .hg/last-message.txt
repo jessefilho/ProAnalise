@@ -1,0 +1,8 @@
+ProAnálise já contém:
+Arquivo com Licença Livre
+Documento de referencia (imcompleto)
+Leitura assuntos -> gráficos
+Leitura mapa - > gráficos
+sem cruzamento assunto+mapa -> gráficos
+sem remodelagem da página
+faltam linhas escuras de fronteiras no mapa

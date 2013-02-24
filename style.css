@@ -1,0 +1,111 @@
+/**
+
+*@Copyright 2013 Alberto Tavares, Gloria B. Lima, Jessé Nascimento Filho, Jonatas Rocha
+*@license GNU General Public License version 3; see COPYING.txt
+
+*Este nome do arquivo é parte do nome do APP 
+	*Nome do APP é um software livre; você pode redistribui-lo e/ou 
+	*modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+	*publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+	*Licença, ou (na sua opnião) qualquer versão.
+	*Este programa é distribuido na esperança que possa ser  util, 
+	*mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+	*MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+	*Licença Pública Geral GNU para maiores detalhes.
+	*Você deve ter recebido uma cópia da Licença Pública Geral GNU
+	*junto com este programa, se não, escreva para a Fundação do Software
+	*Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/*Essa configuração no body é para deixar os lados do site colados ao navegador*/
+body
+{
+	margin:auto;
+	width:100%;
+}
+/*Defini a altura e a cor da div principal. O margin:0px é também para garantir que os lados do site fiquem grudados ao navegador.A largura eu não defini
+pra poder o site ficar na largura da resolução do computador.*/
+#principal
+{
+	height:980;
+	background-color:white;
+	margin:0px;
+}
+
+#topo
+{
+	/*background-image: url('images/back_main.jpg');*/
+	background-color:#A05D56;
+	height:200px;
+}
+
+.titulo{
+	color:white;
+	font-family: Calibri, sans-serif;
+	font-size:30pt;
+	text-indent:100px;
+}
+
+#contentLeft
+{
+	/*background-image: url('images/back_main.jpg');*/
+	background-color:white;
+	width:254px;
+	height:800px;
+	margin: 0px 0px 0px 0px;
+	float:left;
+}
+#main
+{
+	
+	/*background-image: url('images/back_main.jpg');*/
+	background-color:white;
+	width:600px;
+	height:800px;
+	margin: 0px 0px 0px 0px;
+	float:left;
+}
+#contentRight
+{
+	/*background-image: url('images/back_main.jpg');*/
+	background-color:white;
+	height:800px;
+	width:auto;
+	margin: 0px 0px 0px 0px;
+	float:left;
+}
+#rodape
+{
+	/*background-image: url('images/back_main.jpg');*/
+	background-color:#A05D56;
+	height: 150px;
+	width:1499px;
+	float:left;
+}
+
+#graficos
+{
+	width:650px;
+	height:800px;
+}
+
+.chartTitle{
+	color:black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14pt;
+}
+
+h1{
+	color:black;
+	font-family: Calibri;
+	font-size:30pt;
+}
+
+
+.rodapeText{
+	color:white;
+	font-family: Calibri;
+	font-size:10pt;
+	text-align:center;
+	text-indent:50px;
+}
